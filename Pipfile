@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://pypi.ngc.nvidia.com"
+verify_ssl = true
+name = "nvidia"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cu116"
+verify_ssl = true
+name = "pytorch"
+
+[packages]
+gym = "*"
+gym-super-mario-bros = "*"
+nes-py = "*"
+numpy = "*"
+opencv-python = "*"
+pillow = "*"
+pyglet = "*"
+scipy = "*"
+torch = "*"
+torchvision = "*"
+tqdm = "*"
+future = "*"
+cloudpickle = "*"
+matplotlib = "*"
+scikit-image = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
